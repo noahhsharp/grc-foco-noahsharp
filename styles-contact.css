@@ -1,0 +1,172 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html, body {
+font-family: 'Roboto', sans-serif;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/boards-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;	
+}
+
+#logo-container {
+	background: rgba(255,255,0,0.85);
+    margin: 100px auto;
+	padding-bottom: 65px;
+	max-width: 800px
+}
+
+.center {
+    width: 400px;
+	padding: 80%;
+    margin: 100px auto;
+ 	background-color:yellow;
+	text-align: center;
+	border: 4px dashed white;
+	padding-top: 100px;
+}
+
+   
+#logo {
+	margin-bottom: 16px;
+	margin-top: 80px;
+	border: 3px dashed red;
+	text-align: center;
+	width: 50px; 
+}
+
+h1 {
+	font-weight: 400;
+	font-size: 2em;
+    margin: 17px auto 10px auto;
+	color: #4d00e3;
+	font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-size: 1.5em;
+    line-height: 1.4;
+    color: #4d00e3;
+    padding: 40px 10px;
+	margin: 15px auto 25px auto;
+	font-weight: 700;
+	padding-top: 20px;
+}	 
+
+
+p {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-size: 1.2em;
+    line-height: 1.5;
+	color: #4d00e3;
+	font-weight: 400;
+	padding-top: 40px
+;
+}
+
+.OB-logo {
+	width: 350px;
+	padding-top: 100px;
+	display: flex;
+	margin: 0 auto;
+}
+    
+ strong {
+font-weight: 700;
+
+ }   
+em {
+font-style: italic;
+
+}
+
+nav{
+font-family: 'roboto' 'sans-serif';
+font-size: 1.2em;
+width: 600px;
+margin: 0 auto;
+border: unset #4d00e3;
+border-width: 3px 0;
+text-align: center;
+margin-top: 2em;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	display: inline-block;
+	padding: 10px;
+}
+
+a{
+	color: #4d00e3;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover{
+	color: yellow;
+	background:#4d00e3;
+}
